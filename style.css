@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.navbar{
+    width: 100vw;
+    height: 100px; 
+    background-color:#3347B0 ;
+    display: flex;
+    justify-content: space-between;
+    align-items: center ;
+    padding: 20px 40px;
+
+}
+
+.logo{
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+    align-items: center;
+    display: flex;
+    gap: 10px;
+
+}
+
+.hero{
+    font-size: 20px;
+    font-size: bold;
+    color: white;
+    display: flex;
+    gap: 10px;
+    
+}
+
+.contatos{
+    width: 100vw;
+    height: 100px;
+    background-color: #3347B0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 40px;
+}
