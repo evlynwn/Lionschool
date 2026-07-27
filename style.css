@@ -3,6 +3,11 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+main{
+    height: 84dvh;
+}
+
 .navbar{
     width: 100vw;
     height: 100px; 
@@ -18,9 +23,10 @@
     font-size: 20px;
     font-weight: bold;
     color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     align-items: center;
     display: flex;
-    gap: 10px;
+    gap: 30px;
 
 }
 
@@ -35,7 +41,7 @@
 
 .contatos{
     width: 100vw;
-    height: 100px;
+    height: 160px;
     background-color: #3347B0;
     display: flex;
     justify-content: space-between;
@@ -45,12 +51,12 @@
 .contato{
     display: flex;
     align-items: center;
-    gap: 10px;
+    gap: 70px;
     color: white;
 }
 .contato img{
-    width: 16px;
-    height: 16px;
+    width: 30px;
+    height: 30px;
 }
 .contato p{
     margin: 0;
@@ -63,12 +69,16 @@
 }
 
 .logos{
-    gap: 10px;
+    gap: 60px;
 }
 
 .main{
     display: flex;
     gap: 20px;
+    justify-content: center;
+    align-items: center;
+    padding: 200px;
+    gap: 160px;
 }
 .curso{
     display: flex;
@@ -79,8 +89,12 @@
 }
 
 .curso img{
-    width: 300px;
-    height: 300px;
+    width: 600px;
+    height: 800px;
+}
+.estudante img{
+    width: 400px;
+    height: 800px;
 }
 
 .destaque{
@@ -89,33 +103,67 @@
 
 .caixas{
     flex-direction: column;
-    gap: 20px;
+    gap: 70px;
+    display: flex;
+    justify-content: first baseline;
+    
 }
 
 .caix1{
-    width: 400;
-    height: 200;
+    width: 500px;
+    height: 200px;
     background-color: #3347B0;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    padding: 100px;
 }
 
 .caix1 img{
-    width: 30px;
-    height: 30px;
+    width: 100px;
+    height: 100px;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+}
+
+.caix1 span{
+    color: white;
+    width: 400px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 60px;
+    font-weight: bolder;
+    display: flex;
+    justify-content: center;
 }
 
 .caixa2{
-    width: 400;
-    height: 200;
+    width: 500px;
+    height: 200px;
     background-color: #3347B0;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    padding: 70px;
 }
 
 .caixa2 img{
-    width: 30px;
-    height: 30px;
+    width: 100px;
+    height: 100px;
+    align-items: center;
+}
+
+.caixa2 span{
+    color: white;
+    width: 400px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    display: flex;
+    justify-content: center;
+    font-size: 60px;
+    font-weight: bold;
+}
+
+.curso h1{
+    font-size: 70px;
+    font-weight: lighter;
 }
