@@ -19,16 +19,16 @@ export async function getAlunos() {
 
     return response.json
 }
-export async function getFiltro() {
-    const response = await fetch(`${URL}/aluno?curso_id`)
+export async function getAlunoCursoId(curso) {
+    const response = await fetch(`${URL}/aluno?curso_id=${curso}`)
 
     if(!response.ok)
         throw new Error ('Erro ao filtrar alunos')
 
     return response.json
 }
-export async function getStatus() {
-    const response = await fetch(`${URL}/alunos?status`)
+export async function getAlunoStatus(status) {
+    const response = await fetch(`${URL}/alunos?status=${status}`)
 
     if(!response.ok)
         throw new Error ('Erro ao filtrar status')
@@ -36,7 +36,7 @@ export async function getStatus() {
     return response.json
 
 }
-export async function getDetalhes() {
+export async function getDetalhesAluno() {
     const response = await fetch(`${URL}/alunos/1`)
 
     if(!response.ok)
