@@ -1,0 +1,181 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+main{
+    height: 82dvh;
+}
+
+.server{
+    width: 100vw;
+    height: 100px; 
+    background-color:#3347B0 ;
+    display: flex;
+    justify-content: space-between;
+    align-items: center ;
+    padding: 20px 40px;
+
+}
+
+.logo{
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+    font-family: "Roboto";
+    align-items: center;
+    display: flex;
+    gap: 30px;
+
+}
+
+.sair{
+    font-size: 30px;
+    font-weight: bold;
+    color: white;
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-family: "Roboto";
+}
+
+.contatos{
+    width: 100vw;
+    height: 160px;
+    background-color: #3347B0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 40px;
+    font-size: 20px;
+    font-family: "Roboto";
+}
+.contato{
+    display: flex;
+    align-items: center;
+    gap: 70px;
+    color: white;
+    gap: 20px;
+}
+.contato img{
+    width: 30px;
+    height: 30px;
+    align-items: baseline;
+   
+}
+.contato p{
+    margin: 0;
+}
+
+.Copy{
+    color: white;
+    font-size: 10px;
+    font-weight: lighter;
+    font-family: "Roboto";
+}
+
+.logos{
+    gap: 60px;
+}
+
+.main{
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    padding: 200px;
+    gap: 160px;
+}
+.curso{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    flex-direction: column;
+    color: rgb(8, 8, 8);
+    font-family: "Roboto";
+}
+
+.curso img{
+    width: 600px;
+    height: 800px;
+}
+.estudante img{
+    width: 400px;
+    height: 800px;
+}
+
+.destaque{
+    color: #3347B0;
+    font-weight: bold;
+}
+
+.caixas{
+    flex-direction: column;
+    gap: 70px;
+    display: flex;
+    justify-content: first baseline;
+    
+}
+
+.caix1{
+    width: 500px;
+    height: 200px;
+    background-color: #3347B0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 100px;
+}
+
+.caix1 img{
+    width: 100px;
+    height: 100px;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+}
+
+.caix1 span{
+    color: white;
+    width: 400px;
+    font-family: "Roboto";
+    font-size: 60px;
+    font-weight: bolder;
+    display: flex;
+    justify-content: center;
+}
+
+.caixa2{
+    width: 500px;
+    height: 200px;
+    background-color: #3347B0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 70px;
+}
+
+.caixa2 img{
+    width: 100px;
+    height: 100px;
+    align-items: center;
+}
+
+.caixa2 span{
+    color: white;
+    width: 400px;
+    font-family: "Roboto";
+    display: flex;
+    justify-content: center;
+    font-size: 60px;
+    font-weight: bold;
+}
+
+.curso h1{
+    font-size: 70px;
+    font-weight: lighter;
+}
