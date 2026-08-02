@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Turma</title>
+
+    <link rel="stylesheet" href="style.css">
+    <script type="module" src="./js/turma.js" defer></script>
+</head>
+
+<body>
+
+    <header>
+        <nav class="server">
+
+            <div class="logo">
+                <img src="./logo-image.svg" alt="">
+                <span>Lion <br> School</span>
+            </div>
+
+            <div class="sair">
+                <img src="./Vector.svg" alt="">
+                <span>Sair</span>
+            </div>
+
+        </nav>
+    </header>
+
+    <main>
+
+        <div class="titulo-curso">
+            <h1 id="nomeCurso"></h1>
+        </div>
+
+        <div class="filtros">
+            <button id="btnTodos">Todos</button>
+            <button id="btnCursando">Cursando</button>
+            <button id="btnFinalizado">Finalizado</button>
+        </div>
+
+        <div id="cards" class="cards"></div>
+
+    </main>
+
+</body>
+
+</html>

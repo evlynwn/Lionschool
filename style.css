@@ -82,7 +82,7 @@ main{
     gap: 60px;
 }
 
-.main{
+main{
     display: flex;
     gap: 20px;
     justify-content: center;
@@ -114,68 +114,95 @@ main{
 }
 
 .caixas{
+    display: flex;
     flex-direction: column;
-    gap: 70px;
-    display: flex;
-    justify-content: first baseline;
-    
+    gap: 40px;
 }
 
-.caix1{
-    width: 500px;
-    height: 200px;
-    background-color: #3347B0;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 100px;
-}
-
-.caix1 img{
-    width: 100px;
-    height: 100px;
-    align-items: center;
-    display: flex;
-    justify-content: space-between;
-}
-
-.caix1 span{
-    color: white;
-    width: 400px;
-    font-family: "Roboto";
-    font-size: 60px;
-    font-weight: bolder;
-    display: flex;
-    justify-content: center;
-}
-
+.caix1,
 .caixa2{
-    width: 500px;
-    height: 200px;
-    background-color: #3347B0;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 70px;
+    cursor: pointer;
+    transition: .3s;
 }
 
-.caixa2 img{
-    width: 100px;
-    height: 100px;
-    align-items: center;
-}
-
-.caixa2 span{
-    color: white;
-    width: 400px;
-    font-family: "Roboto";
-    display: flex;
-    justify-content: center;
-    font-size: 60px;
-    font-weight: bold;
+.caix1:hover,
+.caixa2:hover{
+    transform: scale(1.05);
+    background: #23398d;
 }
 
 .curso h1{
     font-size: 70px;
     font-weight: lighter;
+}
+
+.cards{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+    padding: 40px;
+}
+
+.card{
+    width: 220px;
+    padding: 20px;
+    background: #3347B0;
+    color: white;
+    border-radius: 15px;
+    text-align: center;
+    cursor: pointer;
+    transition: .3s;
+}
+
+.card:hover{
+    transform: scale(1.05);
+}
+
+.card img{
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.card h2{
+    margin-top: 15px;
+    font-size: 18px;
+}
+
+.card p{
+    margin-top: 8px;
+    font-size: 16px;
+}
+
+.perfil{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 40px;
+}
+
+.perfil img{
+    width: 220px;
+    height: 220px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+#disciplinas{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 40px;
+}
+
+.materia{
+    width: 180px;
+    padding: 20px;
+    border-radius: 10px;
+    background: #3347B0;
+    color: white;
+    text-align: center;
 }

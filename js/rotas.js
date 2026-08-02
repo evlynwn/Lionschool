@@ -36,14 +36,15 @@ export async function getAlunoStatus(status) {
     return response.json
 
 }
-export async function getDetalhesAluno() {
-    const response = await fetch(`${URL}/alunos/1`)
+export async function getDetalhesAluno(id) {
+
+    const response = await fetch(`${URL}/alunos/${id}`)
 
     if(!response.ok)
-        throw new Error ('Erro sobrre os detalhes do aluno')
+        throw new Error('Erro ao buscar aluno')
 
-    return response.json
-    
+    return response.json()
 }
+
 
 
